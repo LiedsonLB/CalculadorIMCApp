@@ -16,11 +16,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.grey,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      title: 'IMC calculator',
+      home: const MyHomePage(title: 'IMC calculator'),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -85,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
         foregroundColor: Colors.grey[50],
         backgroundColor: Colors.black26,
       ),
-      backgroundColor: Colors.black87,
+      backgroundColor: const Color.fromARGB(255, 18, 29, 34),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

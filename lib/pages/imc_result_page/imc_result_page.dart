@@ -43,9 +43,9 @@ class _ImcResultPageState extends State<ImcResultPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
+      backgroundColor: const Color.fromARGB(255, 18, 29, 34),
       appBar: AppBar(
-        title: const Text('Calculadora de IMC'),
+        title: const Text('Calculador de IMC'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios),
           onPressed: () {
